@@ -12,6 +12,7 @@ meosc.plug(this,"test","/test");
 noLoop();
 }
 void draw() {
+ println(meosc.ip());
  //test(100,100); 
  background(0);
  println(meosc.ip());
